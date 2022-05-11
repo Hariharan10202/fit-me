@@ -1,0 +1,81 @@
+.Wrapper {
+  min-height: 100vh;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.9475140397956058) 13%,
+      rgba(0, 0, 0, 0.8130602582830007) 43%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url('https://wallpaperaccess.com/full/4722384.jpg');
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+.formDetails h1 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+.formDetails {
+  border-top: 0.5px solid rgba(255, 255, 255, 0.5);
+  border-left: 0.5px solid rgba(255, 255, 255, 0.5);
+  padding: 70px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.079);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  justify-content: center;
+  position: absolute;
+  left: 20%;
+  top: 50%;
+  transform: translate(-20%, -50%);
+  -webkit-transform: translate(-20%, -50%);
+  backdrop-filter: blur(5px);
+}
+
+.InputField {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.InputField input {
+  color: rgb(255, 255, 255);
+  width: 300px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid gray;
+  background: transparent;
+  transition: 0.2s ease;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btn button {
+  padding: 10px 30px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 15px;
+  border: none;
+  margin-bottom: 20px;
+  cursor: pointer;
+  background-color: rgb(141, 210, 116);
+  transition: 0.2s ease-in;
+}
+
+.btn button:hover {
+  background-color: rgba(186, 229, 168, 0.885);
+}
+.btn p {
+  color: white;
+}

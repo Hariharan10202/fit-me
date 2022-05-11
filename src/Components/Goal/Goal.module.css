@@ -1,0 +1,93 @@
+.goal {
+  background-color: rgba(28, 27, 27, 0.995);
+  padding: 50px 0;
+}
+.goalHeader {
+  color: white;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.goalHeader h1 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.goalHeader p {
+  width: 50%;
+  text-align: center;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.goalContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.progressLists {
+  color: white;
+}
+
+.progressLists {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.progress {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.progressLists .list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0 40px;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+
+.progressLists .list:hover {
+  color: cadetblue;
+  transition: 0.2s;
+}
+
+.progressLists .list:hover .icon {
+  transform: translateY(-8px);
+}
+
+.progressLists .icon {
+  font-size: 30px;
+  transition: 0.3s ease;
+}
+
+.btn button {
+  padding: 10px 40px;
+  font-weight: 600;
+  font-size: 20px;
+  background-color: transparent;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  background-color: rgba(209, 167, 167, 0.436);
+  cursor: pointer;
+  transition: 0.3s ease;
+  margin-top: 10px;
+}
+
+.btn button:hover {
+  transform: translateY(-5px);
+  background-color: rgba(209, 167, 167, 0.323);
+}

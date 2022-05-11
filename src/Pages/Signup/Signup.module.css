@@ -1,0 +1,97 @@
+.Wrapper {
+  background-image: url('https://images.pexels.com/photos/2294361/pexels-photo-2294361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+}
+.formDetails h1 {
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+}
+
+.formDetails {
+  height: 70vh;
+  padding: 70px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.079);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  backdrop-filter: blur(13px);
+}
+
+.InputField {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.InputField div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.InputField input[type='radio'] {
+  width: 15px;
+  height: 15px;
+  border: none;
+}
+
+.InputField label {
+  color: rgb(255, 255, 255);
+}
+
+.InputField input {
+  color: rgb(255, 255, 255);
+  width: 300px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid gray;
+  background: transparent;
+  transition: 0.2s ease;
+}
+
+.InputField input:focus {
+  font-size: 22px;
+}
+
+.InputField input::placeholder {
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+}
+
+.btns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.btns button {
+  padding: 10px 30px;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 15px;
+  border: none;
+  margin-bottom: 20px;
+  cursor: pointer;
+  background-color: rgb(141, 210, 116);
+  transition: 0.2s ease-in;
+}
+
+.btns button:hover {
+  background-color: rgba(186, 229, 168, 0.885);
+}
+.btns p {
+  color: white;
+}

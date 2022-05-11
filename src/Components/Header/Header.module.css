@@ -1,0 +1,82 @@
+.header {
+  min-height: 100vh;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.9475140397956058) 13%,
+      rgba(0, 0, 0, 0.8130602582830007) 43%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url('https://wallpaperaccess.com/full/804850.jpg');
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+.headerContent {
+  max-height: 40vh;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-20%, -50%);
+  -webkit-transform: translate(-20%, -50%);
+  width: 30%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+}
+.headerContent p {
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 30px;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.headerContent .btn button {
+  max-width: 300px;
+  margin-top: 20px;
+  padding: 10px 40px;
+  border: 3px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  border-radius: 4px;
+  transition: ease-out 0.3s;
+  font-size: 14px;
+  outline: none;
+  position: relative;
+  z-index: 1;
+}
+
+.headerContent .btn button:hover {
+  color: #000;
+  cursor: pointer;
+}
+.headerContent .btn button:before {
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  right: 50%;
+  opacity: 0;
+  content: '';
+  background-color: #fff;
+}
+
+.headerContent .btn button:hover:before {
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  z-index: -1;
+}
+
+.btn button span {
+  padding-right: 20px;
+}

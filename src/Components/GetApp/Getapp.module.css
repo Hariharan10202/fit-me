@@ -1,0 +1,42 @@
+.getapp {
+  background-color: rgba(0, 0, 0, 0.83);
+  padding: 100px 0;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content h3 {
+  font-size: 2.5rem;
+  color: white;
+  text-transform: uppercase;
+}
+.btns {
+  display: flex;
+  gap: 40px;
+}
+
+.btns button span {
+  padding-right: 6px;
+  transition: 0.3s ease-in-out;
+}
+.btns button {
+  padding: 15px 40px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 20px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.btns button:hover {
+  transform: scale(108%);
+}
+
+.btns button:hover span {
+  color: rgb(139, 147, 147);
+}
